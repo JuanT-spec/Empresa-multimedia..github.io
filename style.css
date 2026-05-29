@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #d9d9d9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.nav a {
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: #c99;
+    color: white;
+    text-decoration: none;
+}
+
+.nav .active {
+    background: #4b342c;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.hero-img img {
+    width: 300px;
+}
+
+/* SECCIONES */
+.section {
+    padding: 80px 60px;
+}
+
+/* IMAGEN SECCIÓN */
+.img-section img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* BOX */
+.box {
+    background: #4b342c;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #4b342c;
+    color: white;
+    padding: 15px;
+    width: 30%;
+}
+
+.img {
+    height: 120px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.img:hover img {
+    transform: scale(1.1);
+}
+
+/* PLANES */
+.plans-container {
+    display: flex;
+    gap: 20px;
+}
+
+.plan img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* CONTACTO */
+.contact-img img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input,
+.form textarea {
+    padding: 10px;
+    border: none;
+}
+
+.form button {
+    background: #4b342c;
+    color: white;
+    padding: 10px;
+    border: none;
+}
